@@ -1,0 +1,76 @@
+body {
+	margin :0;
+	padding: 0; 
+	background : url(backg22.jpg);
+	background-size: cover; 
+	background-position :center;
+	font-family: sans-serif;
+}
+
+.top {
+	width:200%;
+	background: #ffb366;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+
+}
+
+
+
+.boxvedio{
+    
+    width:800px;
+	height:500px;
+    position: absolute;
+	color:#000;
+    top:50%;
+	left:50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-style: dotted;
+    border-color:#cc6600;
+}
+
+
+.button {
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 50px -20px;
+	cursor: pointer;
+	border: 1px solid #cc6600;
+	border-radius: 3px;
+	display: none;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+}
+
+
+.button1 {
+	border: 1px solid #cc6600;
+	border-radius: 3px;
+	display: none;
+	
+}
+
+.button:hover {
+	background-color: gainsboro;
+}
+
+.boxx {
+	position: absolute;
+	top: 80%;
+	left: 28%;
+	padding: 10px 30px;
+	height: 150px;
+	margin-top:50px;
+}

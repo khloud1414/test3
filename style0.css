@@ -1,0 +1,113 @@
+body {
+	margin :0;
+	padding: 0; 
+	background : url(backg22.jpg);
+	background-size: cover; 
+	background-position :center;
+	font-family: sans-serif;
+}
+
+.top {
+	width:200%;
+	background: #ffb366;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+
+}
+
+.box{
+    position: absolute;
+	color:#000;
+    top: 58%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-style: dotted;
+    border-color:#cc6600;
+    height: 650px;
+    width: 650px;
+}
+
+h2{
+font-family: sans-serif;    
+}
+
+.k{
+    
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+}
+  
+.k input[type="text"], input[type="date"], input[type="email"]
+
+{
+    
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none; 
+	height: 40px;
+	color:#000;
+	font-size: 16px;
+    width:100%;
+	margin-bottom:20px;
+    background-color: ghostwhite;
+}
+
+/*
+
+.boxReg{
+    
+    width:800px;
+	height:500px;
+    position: absolute;
+	color:#000;
+    top:50%;
+	right: 0px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-style: dotted;
+    border-color:#cc6600;
+}
+
+.move{
+    
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    border-style: solid;
+    border-color:#cc6600;
+    
+    
+}
+*/
+.button {
+
+  border: none;
+
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+
+.button1 {
+ 
+  color: black; 
+  border: 1px solid #cc6600;
+border-radius: 3px;
+}
+
